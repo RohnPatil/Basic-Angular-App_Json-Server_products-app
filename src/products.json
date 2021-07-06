@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "pencil",
+      "Desc": "stationary",
+      "price": 20,
+      "id": 1
+    },
+    {
+      "name": "Nokia 8.1",
+      "Desc": "SmartPhone",
+      "price": 37100,
+      "id": 2
+    },
+    {
+      "name": "Samsung s10",
+      "Desc": "SmartPhone",
+      "price": 57000,
+      "id": 3
+    }
+  ]
+}

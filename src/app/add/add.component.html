@@ -1,0 +1,21 @@
+<h4>Add Product</h4>
+<form>
+<table>
+  <tr>
+    <td><label>Name</label></td>
+    <td><input type="text" [(ngModel)]="pname" name="pname"></td>
+  </tr>
+  <tr>
+    <td><label>Desc</label></td>
+    <td><input type="text" [(ngModel)]="desc" name="desc"></td>
+  </tr> 
+  <tr>
+    <td><label>Price</label></td>
+    <td><input type="number" [(ngModel)]="price" name="price" min=0></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><button class="btn btn-success" (click)="addProd()">Add</button></td>
+  </tr>
+</table>
+</form>

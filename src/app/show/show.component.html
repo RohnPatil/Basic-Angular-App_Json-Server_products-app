@@ -1,0 +1,20 @@
+<table border="1px">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Desc</th>
+    <th>Price</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let p of prod_details">
+    <td>{{p.id}}</td>
+    <td>{{p.name}}</td>
+    <td>{{p.Desc}}</td>
+    <td>{{p.price}}</td>
+    <td><a routerLink="/edit/{{p.id}}" class="btn btn-info">edit</a></td>
+    <td><a routerLink="/delete/{{p.id}}" class="btn btn-danger">delete </a></td>
+  </tr>
+</table>
+<br>
+<br>
+ 
